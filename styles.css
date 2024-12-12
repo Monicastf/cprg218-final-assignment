@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+   }
+
+header{
+   *{
+    text-decoration: none;
+   }
+   .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+    .logo{
+        max-width: 150px;
+    }
+    .pawpaw a{
+        color: black;
+        font-size: 65px;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+    li a{
+        color: black; 
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+    background-color: #ffedca;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
