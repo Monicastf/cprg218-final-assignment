@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
    }
 
 header{
@@ -12,11 +13,11 @@ header{
     justify-content: space-between;
    }
     .logo{
-        max-width: 150px;
+        max-width: 85px;
     }
     .pawpaw a{
         color: black;
-        font-size: 65px;
+        font-size: 60px;
     }
     li{
         list-style: none;
@@ -24,7 +25,7 @@ header{
     }
     li a{
         color: black; 
-        font-size: 18px;
+        font-size: 20px;
         font-weight: bold;
         margin-right: 25px;
     }
@@ -35,4 +36,14 @@ header{
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 20px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.hero{
+    max-width: 100%;
+    object-fit: cover;
 }
