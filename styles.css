@@ -47,3 +47,16 @@ h2{
     max-width: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1000px) {
+    .pawpaw a{
+        font-size: 50px; 
+    }
+
+    li a{
+        font-size: 18px; 
+    }
+    main h2{
+        font-size: 20px;
+    }
+}
